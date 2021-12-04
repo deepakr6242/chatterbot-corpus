@@ -2,5 +2,6 @@ nose
 pip
 twine
 flake8
-sphinx>=1.6,<1.7
+sphinx>=3.0.4,<1.7
 sphinx_rtd_theme
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
