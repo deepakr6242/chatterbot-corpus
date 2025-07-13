@@ -4,3 +4,4 @@ twine
 flake8
 sphinx>=1.6,<1.7
 sphinx_rtd_theme
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
